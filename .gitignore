@@ -1,33 +1,106 @@
-target/
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot specific
+application-*.yml
+HELP.md
 !.mvn/wrapper/maven-wrapper.jar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Build directories
+target/
+build/
 !**/src/main/**/target/
 !**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### STS ###
-.apt_generated
+####################################
+# IDE Specific
+####################################
+
+# IntelliJ IDEA
+*.idea/
+*.iml
+*.iws
+*.ipr
+.out/
+
+# Eclipse
+.apt_generated/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-!/.idea/icon.png
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+####################################
+# OS Generated
+####################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+Windows/Temp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+####################################
+# Maven
+####################################
+.mvn/timing.properties
+# already excluded above
+.mvn/wrapper/maven-wrapper.jar
+
+####################################
+# Gradle
+####################################
+.gradle/
+
+####################################
+# Temporary files
+####################################
+*.tmp
+*.temp
